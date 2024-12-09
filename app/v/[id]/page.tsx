@@ -127,9 +127,7 @@ export default async function Video({ params }: PageProps) {
   "name": 'Bokep ${file.title} - ${SITENAME}',
   "description": 'Video Bokep ABG ${file.title} di ${SITENAME} Video Bokep Indo Bocil Hijab Perawan Memek Pink Sange Brutal, Cwe Cantik Cindo Sange Memek Pink Colmek Crot Lendir.',
   "thumbnailUrl": file.splash_img,
-  "uploadDate": new Date(
-            file.uploaded + "00:00:00.000Z"
-        ).toISOString(),
+  "uploadDate": 'PT8M13S',
   "duration": file.length,
   "embedUrl": 'https://abgflix.com/v/${file.filecode}',
   "author": {
