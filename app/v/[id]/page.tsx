@@ -121,6 +121,22 @@ export default async function Video({ params }: PageProps) {
                 'bestRating': '5',	
                 'worstRating': '1' }
         }
+    const jsonLd4 = {
+  '@context': 'http://schema.org',
+  '@type': 'VideoObject',
+  'name': 'Bokep ${file.title} - ${SITENAME}',
+  'description': 'Video Bokep ABG ${file.title} di ${SITENAME} Video Bokep Indo Bocil Hijab Perawan Memek Pink Sange Brutal, Cwe Cantik Cindo Sange Memek Pink Colmek Crot Lendir.',
+  'thumbnailUrl': file.splash_img,
+  'uploadDate': new Date(
+            file.uploaded + ".000Z"
+        ).toISOString(),
+  'duration': file.length,
+  'embedUrl': 'https://abgflix.com/v/${file.filecode}',
+  'author': {
+	'@type': 'Thing',
+	'name': '${SITENAME} - Bokep ABG Viral'
+            }
+        }
     return (
         <div className="grid col-span-full gap-4 md:gap-4 md:mx-10">
         <section>
