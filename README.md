@@ -1,2 +1,2 @@
-A live demo of the project is available at [doodstreambokep](https://link.pages.dev).
-Fork the [repository](link) on GitHub.
+A live demo of the project is available at [ABG Viral](https://abgflix.com).
+Fork the [repository](https://github.com/doodflix/dan) on GitHub.
