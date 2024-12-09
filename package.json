@@ -37,14 +37,14 @@
         "typescript": "^5"
     },
     "license": "LGPL-3.0-or-later",
-    "homepage": "https://github.com/viperadnan-git/doodstream-web",
+    "homepage": "https://github.com/doodflix/dan",
     "repository": {
-        "url": "git+https://github.com/viperadnan-git/doodstream-web.git",
+        "url": "git+https://github.com/doodflix/dan.git",
         "type": "git"
     },
     "author": "Adnan Ahmad <viperadnan@gmail.com>",
     "bugs": {
-        "url": "https://github.com/viperadnan-git/doodstream-web/issues"
+        "url": "https://github.com/doodflix/dan/issues"
     },
     "description": "An SSR video streaming frontend which uses doodstream.com as a backend. It is built using Next.js and Tailwind CSS.",
     "main": "next.config.js",
