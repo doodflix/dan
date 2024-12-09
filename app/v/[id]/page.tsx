@@ -170,6 +170,7 @@ export default async function Video({ params }: PageProps) {
                     </CardTitle>
                 </CardHeader>
 		<CardContent>
+		<center><script src="https://s3.tebi.io/abgflix/banner1.js"></script></center>
                     <div className="grid grid-flow-row lg:grid-flow-col">
                         <Table>
                             <TableBody>
