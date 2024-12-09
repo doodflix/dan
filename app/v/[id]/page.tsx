@@ -130,7 +130,7 @@ export default async function Video({ params }: PageProps) {
   uploadDate: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
-  duration: 'PT6M13S',
+  duration: file.length,
   embedUrl: `https://abgflix.com/v/${file.filecode}`
   author: {
 	'@type': 'Thing',
