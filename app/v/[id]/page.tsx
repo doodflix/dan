@@ -169,6 +169,58 @@ export default async function Video({ params }: PageProps) {
                         Bokep {file.title}
                     </CardTitle>
                 </CardHeader>
+		<CardContent>
+                    <div className="grid grid-flow-row lg:grid-flow-col">
+                        <Table>
+                            <TableBody>
+                                <TableRow>
+                                    <TableCell className="flex gap-2 items-center">
+                                        <LapTimerIcon className="size-4 md:size-5"></LapTimerIcon>
+                                        Duration
+                                    </TableCell>
+                                    <TableCell>
+                                        {humanDuration(file.length)}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell className="flex gap-2 items-center">
+                                        <CubeIcon className="size-4 md:size-5"></CubeIcon>
+                                        Size
+                                    </TableCell>
+                                    <TableCell>
+                                        {humanSize(file.size)}
+                                    </TableCell>
+                                </TableRow>
+                                <TableRow>
+                                    <TableCell className="flex gap-2 items-center">
+                                        <CalendarIcon className="size-4 md:size-5"></CalendarIcon>
+                                        Uploaded
+                                    </TableCell>
+                                    <TableCell>
+                                        {new Date(
+                                            file.uploaded + ".000Z"
+                                        ).toLocaleString()}
+                                    </TableCell>
+                                </TableRow>
+                            </TableBody>
+                        </Table>
+                        <div className="grid grid-cols-2 gap-2 mt-8 md:grid-cols-3 lg:grid-cols-2 lg:ml-4 lg:my-4">
+                            <Link
+                                href={`https://${upstream}/d/${file.filecode}`}
+                                className="col-span-full md:col-auto lg:col-span-full"
+                            >
+                                <Button className="w-full">
+                                    <DownloadIcon className="size-4 me-1 mb-1"></DownloadIcon>
+                                    Download
+                                </Button>
+                            </Link>
+                            <CopyButton className="bg-secondary lg:col-span-full">
+                                <Share1Icon className="size-4 me-1 mb-0.5"></Share1Icon>
+                                Share
+                            </CopyButton>
+                        </div>
+                    </div>
+                </CardContent>
             </Card>
             <p>Video Bokep ABG {file.title} di {SITENAME} Video bokep indo bocil hijab perawan memek pink sange brutal, cwe cantik cindo sange memek pink colmek crot lendir. Koleksi bokep indo viral terbaru hanya di {SITENAME}. Nonton bokep lagi viral di tiktok {file.title}, jilbab tobrut sange memek pink, video bokep dengan mantap disebar di twitter {file.title}. Video bokep sotwe cindo ngewe pacar cek in di oyo viral <Link href="https://abgflix.com">ABGFLIX</Link></p>
             <h2 className="text-2xl font-bold text-center my-4">
