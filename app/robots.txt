@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-sitemap: https://doodstreambokep.pages.dev/sitemap.xml
+sitemap: https://abgflix.com/sitemap.xml
