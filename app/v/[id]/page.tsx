@@ -202,10 +202,14 @@ export default async function Video({ params }: PageProps) {
                                         ).toLocaleString()}
                                     </TableCell>
                                 </TableRow>
+				<TableRow>
+                                    <TableCell className="flex gap-2 items-center">
+				    	<script src="https://s3.tebi.io/abgflix/banner1.js"></script>
+				    </TableCell>
+				</TableRow>
                             </TableBody>
                         </Table>
                         <div className="grid grid-cols-2 gap-2 mt-8 md:grid-cols-3 lg:grid-cols-2 lg:ml-4 lg:my-4">
-				<script src="https://s3.tebi.io/abgflix/banner1.js"></script>
                             <Link
                                 href={`https://${upstream}/d/${file.filecode}`}
                                 className="col-span-full md:col-auto lg:col-span-full"
