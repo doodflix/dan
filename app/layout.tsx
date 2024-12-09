@@ -20,8 +20,7 @@ export const metadata: Metadata = {
         type: `website`,
     },
     verification: {
-        google: 'X_f3Svd_dZDYCMZkgOX6dgNsmS0sRuFKaO2qA1ARbeM',
-        yandex: '382650724620af61',
+        yandex: '5d7839d8a341352d',
     },
 };
 
