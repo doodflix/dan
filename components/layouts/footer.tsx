@@ -87,6 +87,7 @@ export default function Footer() {
                         reserved.
                     </p>
                 </div>
+                 <script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="266883"></script>
             </div>
         </footer>
     );
