@@ -41,7 +41,7 @@ export async function generateMetadata(
 
     const file = data.result[0];
     const title = `Bokep ${file.title} - ${SITENAME}`;
-    const description = `Video Bokep ABG ${file.title} di ${SITENAME} Video Bokep Indo Bocil Hijab Perawan Memek Pink Sange Brutal, Cwe Cantik Cindo Sange Memek Pink Colmek Crot Lendir.`;
+    const description = `Video Bokep ABG ${file.title} di ${SITENAME} Video Bokep Indo Bocil Hijab Perawan Memek Pink Sange Brutal.`;
     const image = file.splash_img;
     const previousOgImages = (await parent).openGraph?.images || [];
     const previousTwImages = (await parent).twitter?.images || [];
@@ -87,7 +87,7 @@ export default async function Video({ params }: PageProps) {
         '@type': 'Article',
         headline: `Bokep ${file.title} - ${SITENAME}`,
         image: file.splash_img,
-        description: `Video Bokep ABG ${file.title} di ${SITENAME} Video Bokep Indo Bocil Hijab Perawan Memek Pink Sange Brutal, Cwe Cantik Cindo Sange Memek Pink Colmek Crot Lendir.`,
+        description: `Video Bokep ABG ${file.title} di ${SITENAME} Video Bokep Indo Bocil Hijab Perawan Memek Pink Sange Brutal.`,
         url: `https://abgflix.com/v/${file.filecode}`,
         datePublished: new Date(
             file.uploaded + ".000Z"
@@ -125,7 +125,7 @@ export default async function Video({ params }: PageProps) {
   '@context': 'http://schema.org',
   '@type': 'VideoObject',
    name: `Bokep ${file.title} - ${SITENAME}`,
-  description: `Video Bokep ABG ${file.title} di ${SITENAME} Video Bokep Indo Bocil Hijab Perawan Memek Pink Sange Brutal, Cwe Cantik Cindo Sange Memek Pink Colmek Crot Lendir.`,
+  description: `Video Bokep ABG ${file.title} di ${SITENAME} Video Bokep Indo Bocil Hijab Perawan Memek Pink Sange Brutal.`,
   thumbnailUrl: file.splash_img,
   uploadDate: new Date(
             file.uploaded + ".000Z"
