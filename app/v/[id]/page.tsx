@@ -156,7 +156,7 @@ export default async function Video({ params }: PageProps) {
         {/* ... */}
         </section>
             <iframe
-                className="w-full h-[30vh] md:h-[55vh] lg:h-[70vh]"
+                className="w-full h-[65vh] md:h-[80vh] lg:h-[100vh]"
                 src={`https://${upstream}/e/${file.filecode}`}
                 scrolling="no"
                 title={file.title}
