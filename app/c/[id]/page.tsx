@@ -92,7 +92,7 @@ export default async function Channel({
                 </p>
             </div>
             <CardList page={page} per_page={per_page} fld_id={fld_id} />
-            <script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="266997"></script>
+            <script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="266883"></script>
         </div>
     );
 }
