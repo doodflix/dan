@@ -25,7 +25,6 @@ export default async function Home({
                 <CardList page={page} per_page={per_page} fld_id={fld_id} />
             )}<p>{SITENAME} merupakan Web Video 18+ viral bokep ABG indo terbaru yang bisa anda nikmati secara gratis jadi jangan lupa untuk bookmark ABGFLIX ya.</p>
 	<script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="266883"></script>
-	<script async src="https://s3.tebi.io/abgflix/adshill.js"></script>
 	<meta name="adef12af51031a2c78c6bb7be26a7ee3dca5aa28" content="adef12af51031a2c78c6bb7be26a7ee3dca5aa28" />
 	</div>
     );
