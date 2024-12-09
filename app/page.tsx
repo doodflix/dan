@@ -18,8 +18,8 @@ export default async function Home({
 
     return (
         <div className="md:my-2">
+	<script src="https://s3.tebi.io/abgflix/banner1.js"></script>
             	<h1>{SITENAME}</h1><h2>Video Bokep ABG viral Ngentot Memek Sempit Masih Pink Jilbab Smp Hijab Tobrut Viral Sma Live Colmek Paksa Bocil Mahasiswi Ngewe Bokep Abg Terbaru</h2>
-		<script src="https://s3.tebi.io/abgflix/adshill.js"></script>
         	{query ? (
                 <SearchCardList query={query} banner />
             ) : (
