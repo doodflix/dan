@@ -170,13 +170,12 @@ export default async function Video({ params }: PageProps) {
                     </CardTitle>
                 </CardHeader>
             </Card>
-            <p>Video Bokep ABG ${file.title} di ${SITENAME} Video bokep indo bocil hijab perawan memek pink sange brutal, cwe cantik cindo sange memek pink colmek crot lendir. Koleksi bokep indo viral terbaru hanya di ${SITENAME}. Nonton bokep lagi viral di tiktok ${file.title}, jilbab tobrut sange memek pink, video bokep dengan mantap disebar di twitter ${file.title}. Video bokep sotwe cindo ngewe pacar cek in di oyo viral ${SITENAME}</p>
+            <p>Video Bokep ABG {file.title} di {SITENAME} Video bokep indo bocil hijab perawan memek pink sange brutal, cwe cantik cindo sange memek pink colmek crot lendir. Koleksi bokep indo viral terbaru hanya di {SITENAME}. Nonton bokep lagi viral di tiktok {file.title}, jilbab tobrut sange memek pink, video bokep dengan mantap disebar di twitter {file.title}. Video bokep sotwe cindo ngewe pacar cek in di oyo viral <Link href="https://abgflix.com">ABGFLIX</Link></p>
             <h2 className="text-2xl font-bold text-center my-4">
                 Related Video Bokep {file.title}
             </h2>
             <SearchCardList query={file.title.split(" ")[1]} />
 <p>{SITENAME} Video bokep ABG indo terbaru viral Bokep {file.title} Hot Twitter doodstream.</p>
-<Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2x294z2b4&u=http%3A%2F%2Fwww.juicyads.rocks"/>
         </div>
     );
 }
