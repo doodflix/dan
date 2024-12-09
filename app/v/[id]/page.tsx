@@ -117,7 +117,7 @@ export default async function Video({ params }: PageProps) {
             'aggregateRating': {
             '@type': 'AggregateRating',	
                 'ratingValue': '5',	
-                'ratingCount': `${file.views}`,	
+                'ratingCount': `876431`,	
                 'bestRating': '5',	
                 'worstRating': '1' }
         }
