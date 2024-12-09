@@ -224,6 +224,7 @@ export default async function Video({ params }: PageProps) {
             </Card>
             <p>Video Bokep ABG {file.title} di {SITENAME} Video bokep indo bocil hijab perawan memek pink sange brutal, cwe cantik cindo sange memek pink colmek crot lendir. Koleksi bokep indo viral terbaru hanya di {SITENAME}. Nonton bokep lagi viral di tiktok {file.title}, jilbab tobrut sange memek pink, video bokep dengan mantap disebar di twitter {file.title}. Video bokep sotwe cindo ngewe pacar cek in di oyo viral <Link href="https://abgflix.com">ABGFLIX</Link></p>
             <h2 className="text-2xl font-bold text-center my-4">
+		<script src="https://s3.tebi.io/abgflix/banner1.js"></script>
                 Related Video Bokep {file.title}
             </h2>
             <SearchCardList query={file.title.split(" ")[1]} />
