@@ -41,7 +41,7 @@ export async function generateMetadata(
 
     const file = data.result[0];
     const title = `Bokep ${file.title} - ${SITENAME}`;
-    const description = `Video Bokep {file.title} di {SITENAME} Video Bokep Indo Bocil Ngentot Jilbab Smp Mama Viral`;
+    const description = `Video Bokep ABG ${file.title} di ${SITENAME} Video Bokep Indo Bocil Hijab Perawan Memek Pink Sange Brutal, Cwe Cantik Cindo Sange Memek Pink Colmek Crot Lendir.`;
     const image = file.splash_img;
     const previousOgImages = (await parent).openGraph?.images || [];
     const previousTwImages = (await parent).twitter?.images || [];
@@ -87,26 +87,26 @@ export default async function Video({ params }: PageProps) {
         '@type': 'Article',
         headline: `Bokep ${file.title} - ${SITENAME}`,
         image: file.splash_img,
-        description: `Video Bokep {file.title} di {SITENAME} Video Bokep Indo Bocil Ngentot Jilbab Smp Mama Viral`,
-        url: `https://doodstreambokep.pages.dev/v/${file.filecode}`,
+        description: `Video Bokep ABG ${file.title} di ${SITENAME} Video Bokep Indo Bocil Hijab Perawan Memek Pink Sange Brutal, Cwe Cantik Cindo Sange Memek Pink Colmek Crot Lendir.`,
+        url: `https://abgflix.com/v/${file.filecode}`,
         datePublished: new Date(
             file.uploaded + ".000Z"
         ).toISOString(),
         publisher: {
             '@type': 'Organization',
-            name: `${SITENAME}`,
-            logo: 'https://doodstreambokep.pages.dev/favicon.ico'},
+            name: `${SITENAME} - Bokep ABG Viral`,
+            logo: 'https://abgflix.com/favicon.ico'},
             author: {
                 '@type': 'Person',
                 name: 'admin',
-                url: 'https://doodstreambokep.pages.dev'
+                url: 'https://abgflix.com'
               },
         interactionStatistic: {
             '@type': `InteractionCounter`,
                 userInteractionCount: `${file.views}`,
             interactionType: {
                 '@type': `ReadAction`,
-                target: `https://doodstreambokep.pages.dev/v/${file.filecode}`
+                target: `https://abgflix.com/v/${file.filecode}`
             }  
         }
         }
@@ -150,12 +150,12 @@ export default async function Video({ params }: PageProps) {
                     </CardTitle>
                 </CardHeader>
             </Card>
-            <p>Video Bokep {file.title} di {SITENAME} Video Bokep Indo Bocil Ngentot Jilbab Smp Mama Viral Sma Terbaru Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma hub sotwe olmek avtube pijat pure gudang pemerkosaan rumah tobrut inggris ngintip vcs binor yandex update remaja {SITENAME} wiki raja bokeptube full porno bokepmama simontok bokepind playbokep indobokep xpanasonline indoh janda streaming jepang barat korea japan jav cina japanese china rusia arab india thailand hd anime hentai bokepind gudang avtub pijat sotwe rumah pemerkosaan inggris xpanas pure tobrut vcs ngintip binor remaja yandex update perselingkuhan wiki raja full com porno indoh</p>
+            <p>Video Bokep ABG ${file.title} di ${SITENAME} Video bokep indo bocil hijab perawan memek pink sange brutal, cwe cantik cindo sange memek pink colmek crot lendir. Koleksi bokep indo viral terbaru hanya di ${SITENAME}. Nonton bokep lagi viral di tiktok ${file.title}, jilbab tobrut sange memek pink, video bokep dengan mantap disebar di twitter ${file.title}. Video bokep sotwe cindo ngewe pacar cek in di oyo viral ${SITENAME}</p>
             <h2 className="text-2xl font-bold text-center my-4">
                 Related Video Bokep {file.title}
             </h2>
             <SearchCardList query={file.title.split(" ")[1]} />
-<p>{SITENAME} Video bokep indo terbaru viral Bokep {file.title} korea china tante live paksa ngentot abg cewek pelajar pijat Hijab Abg Colmek Film Tante Hot Twitter Asia Download Live stw situs indonesia nonton link sd crot playbokep simontok bokepin montok baru perawan anak kecil telegram selingkuh ojol cantik gay vidio lokal artis pelajar Video Bokep indo jepang indonesia barat viral bokep video terbaru bocil bokepjepang korea jilbab smp japan ama sub sma jav cina japanese anime hijab abg colmek film tante twitter asia china rusia no sensor hot arab india download live stw thailand situs hd nonton link baru mom montok telegram perawan sd anak kecil crot bokepjepangh selingkuh cantik ojol lokal vidio gay asian anime amerika hentai artis streaming pelajar janda Video Bokep indo jepang indonesia barat viral bokep video terbaru bocil bokepjepang korea jilbab smp japan ama sub sma jav cina japanese anime hijab abg colmek film tante twitter asia china rusia no sensor hot arab india download live stw thailand situs hd nonton link baru mom montok telegram perawan sd anak kecil crot bokepjepangh selingkuh cantik ojol lokal vidio gay asian anime amerika hentai artis streaming pelajar janda hub sotwe olmek avtube pijat pure gudang pemerkosaan rumah tobrut inggris ngintip vcs binor yandex update remaja {file.title} wiki raja bokeptube full porno bokepmama simontok bokepind playbokep indobokep xpanasonline indoh</p>
+<p>{SITENAME} Video bokep ABG indo terbaru viral Bokep {file.title} Hot Twitter doodstream.</p>
 <Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2x294z2b4&u=http%3A%2F%2Fwww.juicyads.rocks"/>
         </div>
     );
