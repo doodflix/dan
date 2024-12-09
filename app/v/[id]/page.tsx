@@ -155,7 +155,6 @@ export default async function Video({ params }: PageProps) {
         />
         {/* ... */}
         </section>
-		<script src="https://s3.tebi.io/abgflix/banner1.js"></script>
             <iframe
                 className="w-full h-[30vh] md:h-[55vh] lg:h-[70vh]"
                 src={`https://${upstream}/e/${file.filecode}`}
