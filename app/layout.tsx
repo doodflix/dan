@@ -7,15 +7,15 @@ import { SITENAME } from "@/lib/constants";
 const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: `${SITENAME} - Video Bokep Indo Viral Terbaru`,
-    description: `${SITENAME} Video Bokep Indo Bocil Jepang Ngentot Jav Jilbab Smp Barat Mama Viral Sma Korea Tante China Live Paksa Bokep Abg Terbaru`,
-    metadataBase: new URL("https://doodstreambokep.pages.dev"),
+    title: `${SITENAME} - Bokep ABG Viral`,
+    description: `${SITENAME} Video Bokep ABG Indo Viral Bocil SMA Colmek Crot Lendir Hijab Tobrut Ngentot Pacar Viral ABG Cindo Ngewe Memek Pink Terbaru`,
+    metadataBase: new URL("https://abgflix.com"),
     alternates: {
         canonical: `/`,
     },
     openGraph: {
-        title: `${SITENAME} - Video Bokep Indo Jepang Barat Viral Terbaru`,
-        description: `${SITENAME} Video Bokep Indo Bocil Jepang Ngentot Jav Jilbab Smp Barat Mama Viral Sma Korea Tante China Live Paksa Bokep Abg Terbaru`,
+        title: `${SITENAME} - Bokep ABG Viral`,
+        description: `${SITENAME} Video Bokep ABG Indo Viral Bocil SMA Colmek Crot Lendir Hijab Tobrut Ngentot Pacar Viral ABG Cindo Ngewe Memek Pink Terbaru`,
         url: `/`,
         type: `website`,
     },
@@ -35,37 +35,37 @@ export default function RootLayout({
     const jsonLd = {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": `${SITENAME}`,
-        "description": `${SITENAME} Video Bokep Indo Bocil Jepang Ngentot Jav Jilbab Smp Barat Mama Viral Sma Korea Tante China Live Paksa Bokep Abg Terbaru`,
-        "logo": "https://doodstreambokep.pages.dev/favicon.ico",
-        "url": "https://doodstreambokep.pages.dev",
+        "name": `${SITENAME} - Bokep ABG Viral`,
+        "description": `${SITENAME} Video Bokep ABG Indo Viral Bocil SMA Colmek Crot Lendir Hijab Tobrut Ngentot Pacar Viral ABG Cindo Ngewe Memek Pink Terbaru`,
+        "logo": "https://abgflix.com/favicon.ico",
+        "url": "https://abgflix.com",
         "founder":{
             "@type":"Person",
             "name":"admin",
-            "url":"https://doodstreambokep.pages.dev"
+            "url":"https://abgflix.com"
             },
-            "foundingDate":"2024-10-03"
+            "foundingDate":"2024-12-09"
         }
         const jsonLd1 = {
             "@context": "https://schema.org",
         "@type": "WebPage",
-        "name": `${SITENAME}`,
-        "url": "https://doodstreambokep.pages.dev",
-        "description": `${SITENAME} Video Bokep Indo Bocil Jepang Ngentot Jav Jilbab Smp Barat Mama Viral Sma Korea Tante China Live Paksa Bokep Abg Terbaru`,
-        "image": "https://doodstreambokep.pages.dev/favicon.ico",
+        "name": `${SITENAME} - Bokep ABG Viral`,
+        "url": "https://abgflix.com",
+        "description": `${SITENAME} Video Bokep ABG Indo Viral Bocil SMA Colmek Crot Lendir Hijab Tobrut Ngentot Pacar Viral ABG Cindo Ngewe Memek Pink Terbaru`,
+        "image": "https://abgflix.com/favicon.ico",
         "potentialAction":{
             "@type":"ReadAction",
-            "target":"https://doodstreambokep.pages.dev"}
+            "target":"https://abgflix.com"}
         }
         const jsonLd2 = {
             "@context": "https://schema.org",
         "@type": "WebSite",
-        "name": `${SITENAME}`,
-        "url": "https://doodstreambokep.pages.dev",
-        "description": `${SITENAME} Video Bokep Indo Bocil Jepang Ngentot Jav Jilbab Smp Barat Mama Viral Sma Korea Tante China Live Paksa Bokep Abg Terbaru`,
+        "name": `${SITENAME} - Bokep ABG Viral`,
+        "url": "https://abgflix.com",
+        "description": `${SITENAME} Video Bokep ABG Indo Viral Bocil SMA Colmek Crot Lendir Hijab Tobrut Ngentot Pacar Viral ABG Cindo Ngewe Memek Pink Terbaru`,
         "potentialAction": { 
         "@type": "SearchAction", 
-          "target": "https://doodstreambokep.pages.dev/?q={search_term}", 
+          "target": "https://abgflix.com/?q={search_term}", 
             "query-input": "required name=search_term"}
         }
     return (
