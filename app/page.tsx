@@ -25,18 +25,6 @@ export default async function Home({
                 <CardList page={page} per_page={per_page} fld_id={fld_id} />
             )}<p>{SITENAME} merupakan Web Video 18+ viral bokep ABG indo terbaru yang bisa anda nikmati secara gratis jadi jangan lupa untuk bookmark ABGFLIX ya.</p>
 	<script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="266883"></script>
-	<script>
-(function(fpeuy){
-var d = document,
-    s = d.createElement('script'),
-    l = d.scripts[d.scripts.length - 1];
-s.settings = fpeuy || {};
-s.src = "\/\/few-politics.com\/cwD\/9C6.b\/2H5_lgSKWxQY9nNMTCgI2\/Nkj\/cR3TN_yA0G1XO\/DxY\/2QNGz\/c\/4k";
-s.async = true;
-s.referrerPolicy = 'no-referrer-when-downgrade';
-l.parentNode.insertBefore(s, l);
-})({})
-</script>
 	<meta name="adef12af51031a2c78c6bb7be26a7ee3dca5aa28" content="adef12af51031a2c78c6bb7be26a7ee3dca5aa28" />
 	</div>
     );
