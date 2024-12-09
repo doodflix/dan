@@ -228,7 +228,7 @@ export default async function Video({ params }: PageProps) {
             </h2>
             <SearchCardList query={file.title.split(" ")[1]} />
 <p>{SITENAME} Video bokep ABG indo terbaru viral Bokep {file.title} Hot Twitter doodstream.</p>
-	<script src="https://s3.tebi.io/abgflix/adshill.js"></script>
+	<script async src="https://js.wpadmngr.com/static/adManager.js" data-admpid="266997"></script>
         </div>
     );
 }
