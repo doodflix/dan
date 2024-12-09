@@ -28,7 +28,7 @@ const Thumbnail = ({
 
     return (
         <Image
-            className="!w-full !h-[350px] md:!h-[340px] lg:!h-[380px] object-cover rounded-none md:rounded-t-md"
+            className="!w-full !h-[325px] md:!h-[340px] lg:!h-[380px] object-cover rounded-none md:rounded-t-md"
             alt={title}
             src={image[imageIndex]}
             loader={ImageLoader}
