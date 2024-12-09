@@ -121,8 +121,7 @@ export default async function Video({ params }: PageProps) {
                 'bestRating': '5',	
                 'worstRating': '1' }
         }
-    <script type="application/ld+json">
-{
+    const jsonLd4 = {
   '@context': 'http://schema.org',
   '@type': 'VideoObject',
   'name': 'Bokep ${file.title} - ${SITENAME}',
@@ -137,7 +136,7 @@ export default async function Video({ params }: PageProps) {
 	'@type': 'Thing',
 	'name': '${SITENAME} - Bokep ABG Viral'
             }
-        } </script>
+        }
     return (
         <div className="grid col-span-full gap-4 md:gap-4 md:mx-10">
         <section>
@@ -149,6 +148,10 @@ export default async function Video({ params }: PageProps) {
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd3) }}
+        />
+	<script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd4) }}
         />
         {/* ... */}
         </section>
