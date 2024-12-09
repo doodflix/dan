@@ -21,7 +21,6 @@ export const metadata: Metadata = {
     },
     verification: {
         yandex: '5d7839d8a341352d',
-        adef12af51031a2c78c6bb7be26a7ee3dca5aa28: 'adef12af51031a2c78c6bb7be26a7ee3dca5aa28',
     },
 };
 
