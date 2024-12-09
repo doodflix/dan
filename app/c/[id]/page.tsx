@@ -23,7 +23,7 @@ export async function generateMetadata(
     const folder = data.folder;
     const title = `${folder.name} - ${SITENAME}`;
     const description = `${folder.name} - ${folder.total_files} videos koleksi bokep indo ABGFLIX terbaru`;
-    const image = `https://img.icons8.com/color/${folder.name}`;
+    const image = file.single_img;
     const previousOgImages = (await parent).openGraph?.images || [];
     const previousTwImages = (await parent).twitter?.images || [];
 
@@ -39,6 +39,10 @@ export async function generateMetadata(
             title,
             description,
             images: [...previousOgImages, image],
+            url: `/c/${folder.fld_id}`,
+        },
+        alternates: {
+            canonical: `/c/${folder.fld_id}`,
         },
     };
 }
