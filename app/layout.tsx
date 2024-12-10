@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SITENAME } from "@/lib/constants";
-import { GoogleAnalytics } from 'next/third-parties/google'
+import { GoogleAnalytics } from '@next/third-parties/google'
  
 const font = Nunito({ subsets: ["latin"] });
 
