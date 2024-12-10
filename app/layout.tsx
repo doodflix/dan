@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import { SITENAME } from "@/lib/constants";
-
+import { GoogleAnalytics } from 'next/third-parties/google'
+ 
 const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -91,6 +92,7 @@ export default function RootLayout({
                     {children}
                 </ThemeProvider>
             </body>
+            <GoogleAnalytics gaId="G-EGSW9DZ2QC" />
         </html>
     );
 }
