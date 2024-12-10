@@ -67,6 +67,7 @@ export default function RootLayout({
           "target": "https://abgflix.com/?q={search_term}", 
             "query-input": "required name=search_term"}
         }
+ 
     return (
         <html lang="en" suppressHydrationWarning>
             <body className={font.className}>
